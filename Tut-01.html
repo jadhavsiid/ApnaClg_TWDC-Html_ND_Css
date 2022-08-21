@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tut-01.html </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Above line is an example of 'external linking' of CSS with HTML -->
+    <style>
+        h2{
+            color: brown;
+        }
+    </style>
+    <!-- Above <style> tag is an example of 'internal linking' of CSS with HTML-->
+
+</head>
+<body>
+    <!-- These are the following heading element in HTML-->
+    <h1 style="color:blueviolet;"> Welcome to Apni Kaksha &lt;h1&gt;</h1>
+    <!-- Above line of h1 is an example of 'inline linking' of CSS with HTML-->
+    <h2> Welcome to Apni Kaksha </h2>
+    <h3> Welcome to Apni Kaksha </h3>
+    <h4> Welcome to Apni Kaksha </h4>
+    <h5> Welcome to Apni Kaksha </h5>
+    <h6> Welcome to Apni Kaksha </h6>
+    <hr> <!--<hr> tag is used to give a horizontal rule or horizontal line -->
+    <!-- Use of Paragraph tag <P> is used to display paragraph on your website -->
+    <!-- <b> tag is used for bold.-->
+    <!-- <i> tag is used for Italic.-->
+    <!-- <small> tag turns text font into smaller size.-->
+    <!-- <sup> number </sup> is a tag used for superscript.-->
+    <!-- <sub> number </sub> is a tag used for subscript.-->
+    <p> 
+        <b> Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> 
+        <i> quaerat, cum nam aut quasi facilis dignissimos possimus.</i> 
+    Sed blanditiis deserunt id sunt libero? Accusamus, sint rem. Omnis ducimus ipsa nobis.
+    </p>
+    <!-- <Br> tag is used to give line break 
+     Our Web Browser generally ignores the 'White spaces', so in order to generate
+    'White spaces' we've to use 'entities in HTML'
+     'Entities' are basically used to show:
+    1.) Reserved Characters.
+    2.) Special Characters.
+    3.) Emojis.
+    4.) Symbols.                                                        
+        SYNTAX OF ENTITIES
+        &entity_name;
+              OR
+        &#entity_number; -->
+    <hr>
+<!-- Lists in HTML are of three types:
+    1.) Ordered List <ol> : <li> tag is used in this to add iteams in list.
+    2.) Unordered List <ul> : <li> tag is used in this to add iteams in list.
+    3.) Description List -->
+    <h2> SHOPPING LIST </h2>
+    <ul>
+        <li>Sugar</li>
+        <li>Milk</li>
+        <li>Rice</li>
+        <li>Wheat</li>
+        <li>Jaggery</li>
+    </ul>
+    <hr>
+    <h2> MAGGIE'S RECIPE</h2>
+    <ol type="i">
+        <li> Boil 2 and 1/2 cups of water in a utensil. </li>
+        <li> Add a packet of Tastemaker. </li>
+        <li> Add a Noodle Cake. </li>
+        <li> Add some veggies like:- 
+            <ul>
+                <li> Peas </li>
+                <li> Carrot </li>
+                <li> Capsicum </li>
+            </ul>
+            <!-- Above veggies is a example of nesting of lists in HTML -->
+        </li>
+        <li> Keep String for 2 mins. </li>
+        <li> Your Maggie is ready to serve. </li>
+    </ol>
+    <hr>
+    <a href="https://www.Google.com" target= "_blank"> Google </a> <!-- Here <a> is an Anchor Tag.-->
+    <!-- targtet = "blank" enables user to open added hyperlink in new tab rather than in same tab.-->
+    <a href="Tut-02.html">Tut-02</a> <!-- Linked our Tut-02.html page with this page.-->
+    <a href="https://classroom.google.com/u/1/h" target="_blank" rel="noopener noreferrer">
+        <h2>Google Classroom</h2>
+    </a> <!-- Linked a website to our page.-->
+    <hr>
+    <a href="EXTC Syllabus/EXTC SY Syllabus (Sem-3).pdf" target= "_blank"> Sem-3 </a>
+    <br>
+    <a href="EXTC Syllabus/EXTC SY Syllabus (Sem-4).pdf" target= "_blank"> Sem-4 </a>
+    <br>
+    <a href="EXTC Syllabus/EXTC SY Syllabus (Sem-5).pdf" target= "_blank"> Sem-5 </a>
+    <br>
+    <a href="EXTC Syllabus/EXTC SY Syllabus (Sem-6).pdf" target= "_blank"> Sem-6 </a>
+    <br>
+    <a href="EXTC Syllabus/EXTC SY Syllabus (Sem-7).pdf" target= "_blank"> Sem-7 </a>
+    <br>
+    <a href="EXTC Syllabus/EXTC SY Syllabus (Sem-8).pdf" target= "_blank"> Sem-8 </a>
+    <br>
+    <!-- here above we linked a folder to our webiste.-->
+    <hr>
+    <img src="img/img.jpg.jpg" alt="This is an image." width="500">
+    <!-- here <img> is an image tag.
+        here 'src' attribute take value as URL and specifies path of the image.
+        here 'alt' attribute take value as String and specifies alternate text in place of that image.here 'width' attribute take value as pixels and specifies the pixels of an image.-->
+    <hr>
+    <video src="video/video.mp4" controls loop muted poster = "img/img.jpg.jpg" width="300"></video>
+    <!-- iframe tag is used to display a webpage within a webpage.-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yVKBhyHSS90" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.pexels.com/" width="500" height="200"></iframe>
+    <hr>
+    <!-- <table> tag is used to build table of any content in html-->
+    <table>
+        <thead>
+            <tr>
+                <th> Subject </th>
+                <th> Theory </th>
+                <th> Practical </th>
+                <th> Total Marks </th>
+                <th> Grades </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> English </td>
+                <td> 66 </td>
+                <td> 70 </td>
+                <td> 48 </td>
+                <td> 50 </td>
+                <td> A1 </td>
+            </tr>
+                <td> Maths </td>
+                <td> 40 </td>
+                <td> 32 </td>
+                <td> 28 </td>
+                <td> 15 </td>
+                <td> B1 </td>
+            <tr>
+                <td> Science </td>
+                <td> 38 </td>
+                <td> 32 </td>
+                <td> 26 </td>
+                <td> 19 </td>
+                <td> C1 </td>
+            </tr>
+                <td> Social Studies </td>
+                <td> 39 </td>
+                <td> 38 </td>
+                <td> 25 </td>
+                <td> 40 </td>
+                <td> A2 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">Result: PASS </th>
+        </tfoot>
+    </table>
+
+</body>
+</html>

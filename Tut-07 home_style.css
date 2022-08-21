@@ -1,0 +1,20 @@
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+
+
+}
+nav{
+    background-color:#d90429;
+    overflow: hidden;
+}
+
+nav a:hover{
+    color:#9d8189;
+}
+nav a:visited{
+    color:#03045e;
+}

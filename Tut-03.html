@@ -1,0 +1,80 @@
+<!-- Creating a Payment Form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PAYMENT FORM</title>
+</head>
+<body>
+
+<!-- <form> tag is used to accept some input from user to basically create a form.-->
+    <form action="">
+        <h1> PAYMENT FORM </h1>
+        <h2> Contact Information</h2>
+        <h5> * Required fields </h5>
+        <p> 
+            Name *: <input type="text" name = "name" placeholder = "John Cena" required >
+        </p>
+
+        <fieldset>
+        <!-- The <fieldset> tag is used to group related elements in a form, it draws a box around the related elements.-->
+        <legend> Gender* </legend>
+        <!--The <legend> tag is used to define a caption for the <fieldset> element.-->
+        <p>
+            Male <input type="radio" name = "Gender" id="male" required  >
+            Female <input type="radio" name = "Gender" id="female" required >
+        <!-- <input> tag is used to take different types of input from user. -->
+        </p>
+        </fieldset>
+
+        <p> 
+            Address: <textarea name="address" id="address" cols="50" rows="8"> </textarea>
+        </p>
+
+        <p>
+            Email*: <input type="email" name = "Email" id="Email" required >
+        </p>
+
+        <p>
+            Pincode*: <input type="number" name = "Pincode" id="Pincode" required >
+        </p>
+        
+        <hr>
+
+        <h2> Payment Information </h2>
+
+        <p> 
+            Card Type*:
+            <select name="Card Type" id="Card Type" required>
+                <option value=" ">
+                    --Select a Card Type--
+                </option>
+
+                <option value="Visa"> Visa </option>
+                <option value="Mastercard"> Mastercard </option>
+                <option value="Rupay"> Rupay </option>
+                <option value="UPI"> UPI </option>
+
+            </select>
+        </p>
+
+        <p>
+            Card Number*:
+            <input type="number" name="Card Number" id="Card Number" required>
+        </p>
+
+        <p>
+            Expiration Date*:
+            <input type="date" name="exp_date" id="exp_date" required>
+        </p>
+
+        <p>
+            Enter CVV*:
+            <input type="password" name="cvv" id="cvv" required>
+            <input type="submit" value="Pay Now">
+        </p>
+    </form>
+</body>
+</html>

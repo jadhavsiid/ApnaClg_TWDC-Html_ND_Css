@@ -1,0 +1,118 @@
+*{
+    box-sizing:border-box;
+    background-color: #ffff;
+}
+body{
+    color: #03045e;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 20px;
+    margin: 30px 200px;
+    padding: 1px;
+    text-align:right;
+}
+textarea{
+    font-family:'Josefin Sans', sans-serif ;
+}
+::placeholder{
+    font-size: 15px;
+}
+h1,h3{
+    text-align: left;
+    color: #03045e;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea{
+    width: 500px;
+    padding: 18px;
+    border-radius:5px;
+    border: 1px solid #e5e5e5;
+    background-color: #e5e5e5;
+}
+input[type="submit"]{
+    background-color:#03045e;
+    color: #ffff;
+    font-family:'Josefin Sans', sans-serif ;
+    font-size: large;
+    font-weight: normal;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: black;
+}
+footer{
+    font-size: smaller;
+    text-align: center;
+    color: black;
+}
+img{
+    height: 300px;
+}
+p1{
+    float: left;
+}
+@media screen and (max-width:1024px) and (min-width:800px) { /* Laptop */
+    h3{
+        text-align: left;
+        font-size: large;
+    }
+    body{
+    color: #03045e;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 20px;
+    margin: 5px 300px;
+    /* padding: 1px; */
+    text-align:left;
+}
+}
+@media screen and (max-width: 792px) and (min-width: 425px) { /* Tablet */
+    h1{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    body{
+        color: #03045e;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 20px;
+    margin: 1px 100px;
+    text-align: center;
+ }
+ h4{
+     text-align: center;
+ }
+}
+@media screen and (max-width:430px) and (min-width: 200px) { /* Mobile */
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    h3{
+        font-size: medium;
+    }
+    body{
+        color: #03045e;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 20px;
+    margin: 1px;
+    text-align: center;
+ }
+ input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea{
+    width: 400px;
+    padding: 10px;
+    border-radius:5px;
+    border: 1px solid #e5e5e5;
+    background-color: #e5e5e5;
+}
+p1{
+    float:left;
+}
+    
+}

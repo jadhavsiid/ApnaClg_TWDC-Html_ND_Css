@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries: width</title>
+    <style>
+      html {
+        font-size: 1em;
+      }
+      /* @media screen and (max-width: 600px){
+            body{
+                color: red;
+            }
+        } */
+      /* @media(orientation: landscape){
+            body{
+                color: rebeccapurple;
+            }
+        } */
+
+      /* Writing above two media tags combinely */
+
+      /* @media screen and (max-width: 600px) and (orientation: landscape) {
+            body{
+                color: blue;
+            }
+        } */
+
+      /* @media screen and (max-width: 600px),
+        screen and (orientation: landscape){
+            body{
+                color: brown;
+            }
+        } */
+      @media not all and (orientation: landscape) {
+        body {
+          color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+      voluptates, nisi cum modi voluptas ullam eveniet laborum officia natus
+      nostrum. Dolores repudiandae repellat perferendis autem officiis unde,
+      fugiat qui aliquid ut eius a, mollitia voluptatem odio itaque! Vel
+      nesciunt nobis saepe temporibus, earum sunt minus quasi sapiente
+      exercitationem corporis fugiat expedita molestiae? Excepturi optio, sit
+      qui tenetur nihil quia ut tempora, harum temporibus voluptatum mollitia
+      dignissimos necessitatibus. Tenetur nulla ab nihil nemo molestias rem
+      cumque recusandae? Voluptate ratione, saepe voluptatibus accusantium
+      perferendis amet, a similique fugit inventore nesciunt iste nam non,
+      laborum nostrum corrupti reiciendis nihil impedit eos cupiditate
+      molestias! Dolorum quidem voluptas consectetur itaque voluptatibus
+      consequuntur praesentium molestias repellat, explicabo fugiat sunt
+      debitis, commodi deserunt distinctio ad illum mollitia corporis. Vel illo
+      corrupti nesciunt inventore unde similique recusandae quia, reprehenderit
+      laudantium sapiente! Qui minima nemo ut maxime commodi maiores nulla
+      libero, quam modi quidem veniam eius voluptatibus expedita magnam
+      doloribus, deserunt omnis quisquam quae deleniti adipisci porro ullam
+      quia, saepe cupiditate? Praesentium quaerat at tenetur, magni accusamus
+      aut, perferendis eius culpa sequi ducimus expedita. Consectetur minima non
+      voluptatum mollitia dolorem commodi ipsum et rerum accusantium aperiam
+      quasi, id veniam dignissimos eaque! Dolor esse voluptatibus natus odit, at
+      aliquid ut.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+      repellat?
+    </p>
+  </body>
+</html>

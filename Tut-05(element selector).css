@@ -1,0 +1,22 @@
+p{
+    color: green;
+}
+/* In order to change the colur of link which you might see in the live shared file in browser, you've to choose anchor tag and change it's prperty of colour to reflect that change as link is in <a> </a> tag. */
+a{
+    color: tomato;
+}
+
+/* In order to change color in <p> tag as well as in <a> tag use comma (,) while declaring. */
+
+/* p,a{
+    color: green;
+} */
+
+li{
+    list-style-type: square;
+}
+/* This changes the type of style in which the list item is bieng represented in ur browser.The default type was 'disc' from which we changed it to 'square'. */
+
+h1{
+    color: red;
+}

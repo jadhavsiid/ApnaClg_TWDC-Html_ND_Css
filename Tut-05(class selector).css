@@ -1,0 +1,24 @@
+.special{
+    color: #ffa600;
+    font-weight: bold;
+}
+
+/* when your class lies in more than one tag, but you only want to change property of that class only in one particular tag */
+
+/* 
+span.special{
+    color: orange;
+    font-weight: bold;
+}
+*/
+
+/* Descendent combinator : we can select another type of tag below one of the type of tag. */
+li em{
+    color: #663399;
+}
+
+/* Adjacent combinator : use to select an tag which is just next of an another tag. */
+h1+p{
+    font-size: 200%;
+}
+/* Note: This Adjacent combinator tag does not work if there's some another tag lying between the declared two tags. */
